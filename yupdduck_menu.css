@@ -66,13 +66,13 @@ a { text-decoration: none; color: black; }
 }
 #search_header_inner > .h_right > .h_bottom > .h_bottom_sub{ /* 메뉴 창 서브 */
     position: absolute; left: -1px; padding: 10px; 
-    display: none; justify-content: space-evenly; text-align: center; line-height: 220%;
+    display: none; justify-content: right; text-align: center; line-height: 220%;
     width: 100%;
     background-color: white;
     z-index: 99;
 }
 #search_header_inner > .h_right > .h_bottom > table{ justify-content: right;}
-.h_bottom_subli{ display:  block;}
+.h_bottom_subli{ display:  block; padding-left: 53px; padding-right: 10px;}
 #search_header_inner > .h_right > .h_bottom:hover .h_bottom_sub{ display: flex;}
 
 /* ============================================================
